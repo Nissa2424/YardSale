@@ -236,7 +236,8 @@ namespace YardSale.Data_Access
                     }
                 }
                 return true;
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw ex.InnerException;
             }

@@ -91,6 +91,7 @@ namespace YardSale.Controllers
             }
 
             match.TreasureId = treasureToUpdate.TreasureId;
+            match.Description = treasureToUpdate.Description;
             match.DesignerId = treasureToUpdate.DesignerId;
             match.CategoryId = treasureToUpdate.CategoryId;
             match.Price = treasureToUpdate.Price;

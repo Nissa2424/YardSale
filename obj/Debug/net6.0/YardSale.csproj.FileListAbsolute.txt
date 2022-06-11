@@ -31,3 +31,7 @@ C:\Users\Owner\source\repos\YardSale\obj\Debug\net6.0\ref\YardSale.dll
 C:\Users\Owner\source\repos\YardSale\obj\Debug\net6.0\YardSale.pdb
 C:\Users\Owner\source\repos\YardSale\obj\Debug\net6.0\YardSale.genruntimeconfig.cache
 C:\Users\Owner\source\repos\YardSale\obj\Debug\net6.0\YardSale.csproj.AssemblyReference.cache
+C:\Users\Owner\source\repos\YardSale\bin\Debug\net6.0\yardsaleclient\nuget.config
+C:\Users\Owner\source\repos\YardSale\bin\Debug\net6.0\yardsaleclient\package-lock.json
+C:\Users\Owner\source\repos\YardSale\bin\Debug\net6.0\yardsaleclient\package.json
+C:\Users\Owner\source\repos\YardSale\bin\Debug\net6.0\yardsaleclient\public\manifest.json
