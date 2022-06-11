@@ -1,8 +1,9 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom"
-import Cart from "../views/Cart";
-import Home from "../views/Home";
-import Shop from "../views/Shop";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+
+import Cart from '../views/Cart';
+import Home from '../views/Home';
+import Shop from '../views/Shop';
 
 export default function Routing() {
 	return (
