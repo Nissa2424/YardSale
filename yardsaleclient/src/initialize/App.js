@@ -3,7 +3,6 @@ import Navigation from '../components/Navigation';
 import Routing from '../routes';
 import { useState } from "react";
 
-
 const Body = styled.div`
   display: flex;
   justify-content: center;

@@ -8,9 +8,9 @@ import Shop from '../views/Shop';
 export default function Routing() {
 	return (
 	  <Routes>
-		<Route exact path='/home' element={<Home />} />
-		<Route exact path='/shop' element={<Shop />} />
-		<Route exact path='/cart' element={<Cart />} />
+		<Route exact path='/' element={<Home />} />
+		<Route path='/shop' element={<Shop />} />
+		<Route path='/cart' element={<Cart />} />
 	  </Routes>
 	);
   }

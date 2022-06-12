@@ -1,8 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import styled from 'styled-components';
-import Treasure from '../components/Treasure';
 import { getAllTreasures } from '../data/treasureData';
-
+import Treasure from '../components/Treasure';
 const Content = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -25,7 +24,7 @@ export default function Shop() {
   return (
     <Content>
       {treasures.map((treasure) => (
-        <treasure key={treasure.treasureId} treasure={treasure} inShop={inShop} />
+        <Treasure key={treasure.treasureId} treasure={treasure} inShop={inShop} />
       ))}
     </Content>
   );
