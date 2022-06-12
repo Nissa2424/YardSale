@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Navigation from '../components/Navigation';
 import Routing from '../routes';
 import { useState } from "react";
+import 'react-devtools';
 
 
 const Body = styled.div`
