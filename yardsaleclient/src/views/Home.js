@@ -18,7 +18,7 @@ const HomeStyle = styled.div`
 export default function Home() {
   return (
     <HomeStyle>
-      <h1>VINYL DESTINATION</h1>
+      <h1>Issa Yard-Sale</h1>
       <img
         src="https://www.ccad.edu/sites/default/files/styles/693pxw/public/yard%20sale%20applications-10.jpg?itok=33bj4piB"
         alt="Issa YardSale"

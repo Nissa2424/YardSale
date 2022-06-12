@@ -9,11 +9,6 @@ const getAllTreasures = () =>
       .catch(reject);
   });
 
-  const addTreasureToCart = (treasureId) => new Promise((resolve, reject) => {
-    axios.post(`${dbURL}/Cart/${treasureId}`)
-      .then(resolve)
-      .catch(reject);
-  });
 
   const deleteTreasure = (treasureId) => new Promise((resolve, reject) => {
     axios
@@ -25,6 +20,13 @@ const getAllTreasures = () =>
   const addNewTreasure = (treasureObj) => new Promise((resolve, reject) => {
     axios
       .post(`${dbURL}/treasures`, treasureObj)
+      .then(resolve)
+      .catch(reject);
+  });
+
+  const addTreasureToCart = (treasureId) => new Promise((resolve, reject) => {
+    axios
+      .post(`${dbURL}/Cart/${treasureId}`)
       .then(resolve)
       .catch(reject);
   });
