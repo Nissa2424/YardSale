@@ -11,7 +11,7 @@ import {
   CardTitle,
   Button,
 } from "reactstrap";
-import { addNewTreasure, addTreasureToCart } from "../data/treasureData";
+import { addNewTreasure, addTreasureToCart, getSingleTreasure, updateTreasure } from "../data/treasureData";
 import { deleteCartItem } from "../data/cartData";
 
 const CardStyle = styled(Card)`
@@ -33,6 +33,14 @@ const ButtonStyle = styled(Button)`
 `;
 export default function Treasure({ treasure, inShop, setHeaderText }) {
   const history = useNavigate();
+  const [isediting, setIsEditing] = React.useState(false)
+  const [selectedTreasure, setSelectedTreasure] = React.useState({})
+  const handleEditClick = (treasure) => {
+     setIsEditing(true)
+
+	 setSelectedTreasure(treasure)
+	 console.log(selectedTreasure)
+  }
   //console.log(treasure);
   return (
     <CardStyle>
@@ -42,12 +50,18 @@ export default function Treasure({ treasure, inShop, setHeaderText }) {
           src={treasure.imageLink}
           alt={treasure.description}
         />
-        <CardTitle tag="h2">{treasure.description}</CardTitle>
-        <CardText tag="h4">{treasure.category}</CardText>
+
+		{isediting ? 
+		<input type= "Text" value={selectedTreasure.description} onChange = {(e) => selectedTreasure.description = e.target.value} />
+		 :
+		<CardTitle tag="h2">{treasure.description}</CardTitle>
+		}	
+        <CardText tag="h4">{treasure.categoryId}</CardText>
         <CardText tag="h4">${treasure.price}</CardText>
         <CardSubtitle tag="h5">{treasure.design}</CardSubtitle>
         {inShop && (
-          <ButtonStyle
+        <>
+		<ButtonStyle
             className="add-to-cart-btn"
             onClick={() => {
               addTreasureToCart(treasure.treasureId);
@@ -57,7 +71,19 @@ export default function Treasure({ treasure, inShop, setHeaderText }) {
           >
             Add To Cart
           </ButtonStyle>
-        )}
+
+		  <ButtonStyle
+		  className="add-to-cart-btn"
+		  onClick={() => {
+			handleEditClick(treasure)
+
+		
+		  }}
+		>
+		  Edit Description 
+		</ButtonStyle>
+		</>
+        )} 
         {!inShop && (
           <ButtonStyle
             className="delete-from-cart-btn"
@@ -67,6 +93,22 @@ export default function Treasure({ treasure, inShop, setHeaderText }) {
           >
             Delete From Cart
           </ButtonStyle>
+
+
+        )}
+
+	{isediting && (
+          <ButtonStyle
+            className="delete-from-cart-btn"
+            onClick={() => {
+				console.log(selectedTreasure)
+				updateTreasure(selectedTreasure)
+			} }
+			 >
+         Done 
+          </ButtonStyle>
+	
+
         )}
       </CardBody>
     </CardStyle>

@@ -31,16 +31,16 @@ const getAllTreasures = () =>
       .catch(reject);
   });
   
-  const updateTreasure = (treasureId, obj) => new Promise((resolve, reject) => {
+  const updateTreasure = (obj) => new Promise((resolve, reject) => {
     axios
-      .put(`${dbURL}/treasures/${treasureId}`, obj)
+      .put(`${dbURL}/treasures/putTreasure`, obj)
       .then(() => getAllTreasures().then(resolve))
       .catch(reject);
   });
   
   const getSingleTreasure = (treasureId) => new Promise((resolve, reject) => {
     axios
-      .get(`${dbURL}/treasures/${treasureId}`)
+      .get(`${dbURL}/treasures/getTreasureById/${treasureId}`)
       .then((response) => resolve(response.data))
       .catch(reject);
   });

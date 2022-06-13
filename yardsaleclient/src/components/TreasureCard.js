@@ -24,7 +24,7 @@ const initialState = {
   descriptionId: '',
   designId: '',
   imageLink: '',
-  category: '',
+  categoryId: '',
   price: ''
 };
 
@@ -38,7 +38,7 @@ export default function TreasureForm({ obj = {} }) {
         description: obj.description,
         designId: obj.designId,
         image: obj.image,
-        category: obj.category,
+        categoryId: obj.categoryId,
         price: obj.price
       });
     }
@@ -104,13 +104,13 @@ export default function TreasureForm({ obj = {} }) {
           />
         </FormGroup>
         <FormGroup>
-          <Label for="category">Category:</Label>
+          <Label for="categoryId">CategoryId:</Label>
           <Input
             onChange={(e) => handleChange(e)}
-            value={formInput.category || ''}
+            value={formInput.categoryId || ''}
             type="text"
-            name="category"
-            id="category"
+            name="categoryId"
+            id="categoryId"
           />
         </FormGroup>
         <FormGroup>

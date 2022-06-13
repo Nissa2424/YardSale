@@ -63,11 +63,11 @@ namespace YardSale.Controllers
             }
         }
 
-        [Route("getTreasureByCategoryId/{category}")]
+        [Route("getTreasureByCategoryId/{categoryId}")]
         [HttpGet]
-        public IActionResult GetTreasureByCategoryId(int category)
+        public IActionResult GetTreasureByCategoryId(int categoryId)
         {
-            var matches = _treasureRepository.GetTreasureByCategoryId(category);
+            var matches = _treasureRepository.GetTreasureByCategoryId(categoryId);
             if (matches != null)
             {
                 return Ok(matches);
@@ -78,7 +78,7 @@ namespace YardSale.Controllers
             }
         }
 
-        [Route("updateTreasure")]
+        [Route("putTreasure")]
         [HttpPut]
         public IActionResult UpdateTreasure(Treasure treasureToUpdate)
         {
