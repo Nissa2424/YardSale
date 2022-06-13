@@ -41,6 +41,13 @@ export default function Treasure({ treasure, inShop, setHeaderText }) {
 	 setSelectedTreasure(treasure)
 	 console.log(selectedTreasure)
   }
+  const handleSubmitUpdate = (treasure) => {
+	updateTreasure(treasure)	
+	setIsEditing(false) 
+
+	setSelectedTreasure({})
+	console.log(selectedTreasure)
+ }
   //console.log(treasure);
   return (
     <CardStyle>
@@ -76,8 +83,6 @@ export default function Treasure({ treasure, inShop, setHeaderText }) {
 		  className="add-to-cart-btn"
 		  onClick={() => {
 			handleEditClick(treasure)
-
-		
 		  }}
 		>
 		  Edit Description 
@@ -100,16 +105,11 @@ export default function Treasure({ treasure, inShop, setHeaderText }) {
 	{isediting && (
           <ButtonStyle
             className="delete-from-cart-btn"
-            onClick={() => {
-				console.log(selectedTreasure)
-				updateTreasure(selectedTreasure)
-			} }
+           onClick = {() => handleSubmitUpdate((selectedTreasure))}
 			 >
          Done 
           </ButtonStyle>
-	
-
-        )}
+       )}
       </CardBody>
     </CardStyle>
   );
