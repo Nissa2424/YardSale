@@ -29,7 +29,7 @@
 ## Code Snippets:
 
 ```SQL Server 
-![image](https://user-images.githubusercontent.com/86807857/173716027-719c9c75-90df-4566-b87b-3f802513c035.png)
+<img width="959" alt="2022-05-14" src=<"https://user-images.githubusercontent.com/86807857/173716027-719c9c75-90df-4566-b87b-3f802513c035.png">
 
 ```Model View Controller (ASP.NET)
 ![image](https://user-images.githubusercontent.com/86807857/173716298-c7f8318f-da67-492b-be07-04084229a1f5.png)
