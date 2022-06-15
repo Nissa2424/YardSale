@@ -23,8 +23,8 @@
  $ From inside the terminal > using Git Bash > npm start 
 ```
 ## Relevant Links:
-* [WireFrame][(https://www.figma.com/file/sqOo6ek4RWE12ENouMExWa/SpinRecycle?node-id=0%3A1)](https://docs.google.com/presentation/d/1sINExrkBkwP-WQGS0gL8Kd_pi_1_iLDcKemoJ__3Spk/edit#slide=id.g12c3086e1c7_0_184)
-*  [ERD][(https://dbdiagram.io/d/624e2da4d043196e390d4f30)](https://dbdiagram.io/d/628460877f945876b63b6290)
+* [WireFrame](https://www.figma.com/file/sqOo6ek4RWE12ENouMExWa/SpinRecycle?node-id=0%3A1)](https://docs.google.com/presentation/d/1sINExrkBkwP-WQGS0gL8Kd_pi_1_iLDcKemoJ__3Spk/edit#slide=id.g12c3086e1c7_0_184)
+*  [ERD](https://dbdiagram.io/d/624e2da4d043196e390d4f30)](https://dbdiagram.io/d/628460877f945876b63b6290)
 
 ## Code Snippets:
 
@@ -40,15 +40,13 @@
 
 ## Screenshot(s) of App:
 
-![image](https://user-images.githubusercontent.com/86807857/173717838-29947627-aee2-4416-8038-d9aad2dc3166.png)
-
-![image](https://user-images.githubusercontent.com/86807857/173718687-d4dd5e31-e8b3-4494-aa77-5c31c0e09e01.png)
-
-![image](https://user-images.githubusercontent.com/86807857/173718779-2180e2fc-341d-43c6-aad5-5a0e9cce45e8.png)
+<img width="959" alt="2022-06-14" src=https://user-images.githubusercontent.com/86807857/173717838-29947627-aee2-4416-8038-d9aad2dc3166.png">
+<img width="960" alt="2022-06-14 (1)" src=https://user-images.githubusercontent.com/86807857/173718687-d4dd5e31-e8b3-4494-aa77-5c31c0e09e01.png">
+<img width="956" alt="2022-06-14 (2)" src=https://user-images.githubusercontent.com/86807857/173718779-2180e2fc-341d-43c6-aad5-5a0e9cce45e8.png">
 
 
 ## SWAGGER: 
-![image](https://user-images.githubusercontent.com/86807857/173718409-17a75043-a907-4164-95a6-ab542dd57c80.png)
+<img width="959" alt="2022-05-14" src=https://user-images.githubusercontent.com/86807857/173718409-17a75043-a907-4164-95a6-ab542dd57c80.png)
 
 ## Technology Used:
 * Javascript
