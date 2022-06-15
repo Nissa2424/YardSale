@@ -25,27 +25,19 @@
 ## Relevant Links:
 
 * [WireFrame](https://www.figma.com/file/sqOo6ek4RWE12ENouMExWa/SpinRecycle?node-id=0%3A1)
-*  [ERD](https://dbdiagram.io/d/624e2da4d043196e390d4f30)](https://dbdiagram.io/d/628460877f945876b63b6290)
+*  [ERD](https://dbdiagram.io/d/624e2da4d043196e390d4f30)
 
 ## Code Snippets:
 
-```SQL Server 
-
+## SQL Server 
 <img width="959" alt="2022-06-14" src="https://user-images.githubusercontent.com/86807857/173716027-719c9c75-90df-4566-b87b-3f802513c035.png">
 
-```
-
-```Model View Controller (ASP.NET)
-
+## Model View Controller (ASP.NET)
 <img width="959" alt="2022-06-14" src="https://user-images.githubusercontent.com/86807857/173716298-c7f8318f-da67-492b-be07-04084229a1f5.png">
 
-```
-
-```React Promises 
-
+## React Promises 
 <img width="959" alt="2022-06-14" src="https://user-images.githubusercontent.com/86807857/173717668-405f8c47-33fc-4a62-aac6-081057419fb0.png">
 
-```
 
 ## Screenshot(s) of App:
 
