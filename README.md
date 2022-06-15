@@ -5,7 +5,7 @@
 ## About
 * Who doesn't "![image](https://user-images.githubusercontent.com/86807857/173709583-83c03829-d244-4aa6-920c-fb4de45b4abd.png)" a Yard Sale? Well guess what? This app allows you to shop by a click of a button. That's right this Yard Sale is Vitural! 
 
-#### CRUD:
+## CRUD:
 * Upon entering the BIG A** Virtual Yard Sale, the users land on the HomePage.
 * The User clicks "Shop" - the app will be redirected to a list of Treasures that are available for purchase.
 * Via the "Shop" screen - the user can select "Add To Cart" or Edit the Description 
