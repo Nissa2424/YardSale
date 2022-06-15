@@ -3,7 +3,7 @@
 ## Let's take a look inside my Vitual Yard Sale and Find Your TREASURE: 
 
 ## About
-* Who doesn't ![image](https://user-images.githubusercontent.com/86807857/173709583-83c03829-d244-4aa6-920c-fb4de45b4abd.png) a Yard Sale? Well guess what? This app allows you to shop by a click of a button. That's right this Yard Sale is Vitural! 
+* Who doesn't "![image](https://user-images.githubusercontent.com/86807857/173709583-83c03829-d244-4aa6-920c-fb4de45b4abd.png)" a Yard Sale? Well guess what? This app allows you to shop by a click of a button. That's right this Yard Sale is Vitural! 
 
 #### CRUD:
 * Upon entering the BIG A** Virtual Yard Sale, the users land on the HomePage.
