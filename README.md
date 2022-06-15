@@ -38,7 +38,7 @@
 ![image](https://user-images.githubusercontent.com/86807857/173717668-405f8c47-33fc-4a62-aac6-081057419fb0.png)
 
 
-## ScreenShots of App
+## Screenshot(s) of App:
 
 ![image](https://user-images.githubusercontent.com/86807857/173717838-29947627-aee2-4416-8038-d9aad2dc3166.png)
 
@@ -47,7 +47,7 @@
 ![image](https://user-images.githubusercontent.com/86807857/173718779-2180e2fc-341d-43c6-aad5-5a0e9cce45e8.png)
 
 
-## Swagger 
+## SWAGGER: 
 ![image](https://user-images.githubusercontent.com/86807857/173718409-17a75043-a907-4164-95a6-ab542dd57c80.png)
 
 ## Technology Used:
@@ -62,6 +62,3 @@
 * Reactstrap
 * Styled Components
 * Swagger
-
-
-
